@@ -6,14 +6,21 @@
 ## Business Requirements
 * My goal is to develop my previous analysis and show the purchasing trends/patterns that are being made from each country and to identify the most popular product. Which will help an audience understand overall how much is being spent per region. Also answering the question of what product and country bring in the most profit. 
 
-## Deployment Reminders
+## Hypothesis and how to validate?
+* Sales are seasonal
+* The UK carries most of revenue
+* Repeat customers spend more money
+* To validate this I will be using an array of analysis techniques and data visualisations.
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
+* * This includes data visualistions created using Matplotlib,Seaborn, Plotly and a dashboard created with PowerBi
 
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+## Project Plan
+* This project was completed using a Kanban board which broke down the following steps: Extraction Tranformation Loading. Plus the other steps such as EDA. ML model and creatign a dasboard
+
+## Analysis techniques used
+* My project relies heavy on the descriptive analysis technique
+* Did the data limit you, and did you use an alternative approach to meet these challenges? My dataset limited me with how big it was in its raw form (541909 rows x 8 cols). So the alternative approch I had to take was to analyse sample size data for each hypothesis
+* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+I used generative AI (CoPilot, ChatGPT) to help with the clarity of my visuals, for instance aiding my decision of which visualistions was optimal for  my case. As I had to make sure my findings could be understood by an audience. It also helped with my workflow as I had a mental block, so it helped provide steps and ways to explain my hypothesis.
+
+
