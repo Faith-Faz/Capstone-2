@@ -23,4 +23,19 @@
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 I used generative AI (CoPilot, ChatGPT) to help with the clarity of my visuals, for instance aiding my decision of which visualistions was optimal for  my case. As I had to make sure my findings could be understood by an audience. It also helped with my workflow as I had a mental block, so it helped provide steps and ways to explain my hypothesis.
 
+## Development Roadmap
+* I faced quite a few challenges on the front end of this project that hindered me. I got past this by going back through the LMS and using external sources such as CoPilot and the Python.org page to get a more concrete understanding.
 
+## Main Data Analysis Libraries
+* Numpy
+* Pandas
+* Seaborn
+* Matplotlib
+* Plotly
+* scikit-learn
+
+## Credits
+* The Online Retail Transaction dataset was exported from Kaggle.
+
+## Acknowledgements
+* I want to thank Vasi, Mark and Niel. As they helped teach me the skills that has made me able to complete the project.
