@@ -17,15 +17,30 @@
 ## Project Plan
 * This project was completed using a Kanban board which broke down the following steps: Extraction Tranformation Loading. Plus the other steps such as EDA. ML model and creatign a dasboard
 
+* The project followed a structured step by step that had the following stages:
+
+* Data Collection – Obtaining the retail dataset
+
+* Data Cleaning (ETL) – Handling missing values, correcting data types, and creating new features such as total transaction value
+
+* Exploratory Data Analysis (EDA) – Identifying trends and relationships between variables
+
+* Hypothesis Testing/Data Visualisation – Testing assumptions about pricing and purchasing behaviour and creating the corresponding charts for the dashboard.
+
+* Machine Learning Modelling – Developing a predictive model using Scikit-learn to estimate transaction values
+
 ## Analysis techniques used
 * My project relies heavy on the descriptive analysis technique
-* Did the data limit you, and did you use an alternative approach to meet these challenges? My dataset limited me with how big it was in its raw form (541909 rows x 8 cols). So the alternative approch I had to take was to analyse sample size data for each hypothesis
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
-I used generative AI (CoPilot, ChatGPT) to help with the clarity of my visuals, for instance aiding my decision of which visualistions was optimal for  my case. As I had to make sure my findings could be understood by an audience. It also helped with my workflow as I had a mental block, so it helped provide steps and ways to explain my hypothesis.
+
+##  Did the data limit you, and did you use an alternative approach to meet these challenges? 
+* My dataset limited me with how big it was in its raw form (541909 rows x 8 cols). So the alternative approch I had to take was to analyse sample size data for each hypothesis
+
+## How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* I used generative AI (CoPilot, ChatGPT) to help with the clarity of my visuals, for instance aiding my decision of which visualistions was optimal for  my case. As I had to make sure my findings could be understood by an audience. It also helped with my workflow as I had a mental block, so it helped provide steps and ways to explain my hypothesis.
 
 ## Development Roadmap
 * I faced quite a few challenges on the front end of this project that hindered me. I got past this by going back through the LMS and using external sources such as CoPilot and the Python.org page to get a more concrete understanding.
-
+* This project can be developed by having a more advanced machine learning model to improve predictive accuracy. Plus, I would also add to my dashboard to give it more advanced interactivity for users.
 ## Main Data Analysis Libraries
 * Numpy
 * Pandas
